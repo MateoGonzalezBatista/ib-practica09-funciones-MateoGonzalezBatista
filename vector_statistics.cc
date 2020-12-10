@@ -20,6 +20,7 @@ int main( int argc, char* argv[]) {
 	for (int i = 0; i < numeros; i++) {
 		random[i] = Random(posicion_x , posicion_y);
 		cout << random[i] << endl;
+	
 
 	}
 
