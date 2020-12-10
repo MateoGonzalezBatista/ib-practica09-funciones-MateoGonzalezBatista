@@ -44,7 +44,8 @@ int main () {
       for (int i = 0; i < (num_terms - 2); ++i) {
         next = last + before_last;
         std::cout << next << kSpace;
-        before_last = last;
+        before_last = last
+        last = next;          
       }
       break;
   }
